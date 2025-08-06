@@ -5,3 +5,18 @@
 // Reference type or non primitive
 
 // Array,Objects,Functions
+// ======================================================================
+// stack(primitive), heap(Non-primitive)
+let myYoutubename = "hiteshchoudarydotcom"
+let anothername = "chai aur code"
+console.log(anothername)
+console.log(myYoutubename)
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+
+userTwo.email="hitesh@google.com"
+console.log(userOne.email)
+console.log(userTwo.email)
