@@ -11,4 +11,17 @@ const user = {
 // user.welcomeMessage()
 // user.username="sam"
 // user.welcomeMessage()
-console.log(this);
+//console.log(this);
+// function chai(){
+//     let username="hitesh"
+//     console.log(this.username);
+// }
+// chai()
+const chai= ()=>{
+      let username="hitesh"
+    console.log(this.username);
+}
+//chai()
+const addTwo = (num1,num2)=> (num1+ num2)
+
+console.log(addTwo(3,4));
